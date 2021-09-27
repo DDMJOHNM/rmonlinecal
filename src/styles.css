@@ -1,0 +1,73 @@
+body{
+    width:100%;
+
+}
+
+.calendar{
+    background-color:ghostwhite;
+    border-radius: 5pt;
+    width: 695px; 
+    height:600px;
+    overflow: scroll;
+    padding:10px;
+    border:1px solid rgba(0,0,0,0.1); 
+    text-shadow: 2px,5px rgba(0,0,0,0.1);
+}
+
+.cal-cell{
+    margin-left:10px;
+    letter-spacing:1px;
+    float:left;
+    display: inline;
+    border:1px solid rgba(0,0,0,0.1); 
+    background-color:white;
+    font-size: 12px;
+    text-align: center;
+    color:rebeccapurple;   
+    text-shadow: 2px,5px rgba(0,0,0,0.1);
+    padding: 2pt;
+}
+.slot{    
+    /* border:1px solid rgba(0,0,0,0.1); */
+    display: inline-block; 
+    text-justify: left;
+    width:98px;
+    padding:1px;
+  
+}
+
+.appt{
+    background-color:ghostwhite;
+    border-radius: 2px;
+    display: inline;
+    width:90px;
+    height:12px;
+    border:1px solid rgba(0,0,0,0.1);
+    text-shadow: 2px,5px rgba(0,1,5,0.1);
+    display:inline-block;
+    text-justify: left;
+    
+}
+
+.today{
+    background-color:rebeccapurple;
+    color:white;
+    border-right:3px solid rebeccapurple;
+    border-left:3px solid rebeccapurple;
+    border-radius: 5px;
+    
+}
+
+.dayName{
+    padding:2px;
+    font-weight: 800;
+    display: block;
+    letter-spacing: 1px;
+    text-align: left;
+  
+}
+
+.active{
+    background-color: lightseagreen;
+    color:white;
+}
